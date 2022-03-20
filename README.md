@@ -17,8 +17,6 @@ The Odin Project
 
 Fonts: 
 
-Patrick Wagesreiter
-https://fonts.google.com/specimen/Patrick+Hand#standard-styles
-
-Robert Leuschke
-https://fonts.google.com/specimen/Inspiration?query=inspiration#standard-styles
+Pablo Impallari
+https://twitter.com/impallaritype?lang=en
+https://fonts.google.com/specimen/Lobster+Two#standard-styles

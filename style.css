@@ -1,5 +1,5 @@
 html{
-    font-family: 'Inspiration';
+    font-family: 'Lobster Two', cursive;
     font-wieght: bold;
     font-size: 40px;
 }
@@ -9,6 +9,8 @@ body{
     justify-content: center;
     flex-direction: row;
     background-color: rgb(146, 146, 146);
+    width: 100%;
+    height: 100%;
 }
 
 #pencil{
@@ -107,9 +109,8 @@ img{
 
 
 button {
-    font-weight: 15px;
-    font-family: 'Patrick Hand';
-    font-size: 20px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 60%;
     height: 75px;
     width: 75px;
     border-radius: 40px;
