@@ -14,3 +14,11 @@ Credit:
 
 Epistemic Lobster <br>
 The Odin Project
+
+Fonts: 
+
+Patrick Wagesreiter
+https://fonts.google.com/specimen/Patrick+Hand#standard-styles
+
+Robert Leuschke
+https://fonts.google.com/specimen/Inspiration?query=inspiration#standard-styles

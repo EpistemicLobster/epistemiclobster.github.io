@@ -1,5 +1,6 @@
 html{
     font-family: 'Inspiration';
+    font-wieght: bold;
     font-size: 40px;
 }
 
@@ -37,7 +38,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(15, 86, 179);
-    color: rgb(253, 249, 1);
+    color: rgb(255, 255, 255);
     height: 75px;
     width: 550px;
 }
@@ -76,6 +77,11 @@ body{
 
 }
 
+img{
+    width: 80%;
+}
+
+
 
 #home{
     display: flex;
@@ -101,19 +107,19 @@ body{
 
 
 button {
-    font-weight: ;
-    font-family: 'inspiration';
+    font-weight: 15px;
+    font-family: 'Patrick Hand';
     font-size: 20px;
     height: 75px;
     width: 75px;
     border-radius: 40px;
-    color:rgb(253, 249, 1);
-    background-color:rgba(5, 5, 5, 0.068);
-
+    color:rgb(0, 0, 0);
+    background-image: url('images/blackpen.png');
 }
+
+
 
 :root {
     --grid-cols: 1;
     --grid-rows: 1;
 }
-

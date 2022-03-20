@@ -10,6 +10,9 @@ let target;
 let cell;
 
 
+//add images to button
+
+
 //generate a grid via append cells to screen
 
 function generateGrid(gridInput) {
@@ -77,7 +80,7 @@ colorButton.addEventListener('click',
 function () {
 if (colorState == 0){
     colorState++;
-    colorButton.innerHTML = 'RGB';
+    colorButton.innerHTML = 'RGB'
 } else if (colorState == 1){
     colorState++;
     colorButton.innerHTML = 'Eraser';
