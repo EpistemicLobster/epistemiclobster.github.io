@@ -28,7 +28,6 @@ function generateGrid(gridInput) {
 
 function arrayListeners () {
     gridArray = Array.from(document.querySelectorAll('.cell'))
-    console.log(gridArray)
     gridArray.forEach(listeners => {
         listeners.addEventListener('mouseover', changeColor)
     })
@@ -51,20 +50,21 @@ resetButton.addEventListener('click', resetGrid);
 
 homeButton.addEventListener('click', toggleScreen);
 
-function resetGrid () {
+function resetGrid() {
+    removeChildren()
+    generateGrid(gridInput)
+};
+
+function removeChildren() {
     let cell = document.querySelector('#cell');
     while (screen.hasChildNodes()) {
         screen.removeChild(screen.firstChild);
     }
-    generateGrid(gridInput)
-};
+} 
 
 sizeButton.addEventListener('click', 
 function changeGrid () {
-    let cell = document.querySelector('#cell');
-    while (screen.hasChildNodes()) {
-        screen.removeChild(screen.firstChild);
-    };
+    removeChildren();
     gridInput = prompt("Choose between 2 and 50, to adjust the grid size.", 16);
     if(gridInput > 50) {
         alert("That value is too big")
