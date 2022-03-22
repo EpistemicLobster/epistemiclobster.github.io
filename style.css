@@ -27,6 +27,7 @@ body{
     font-size: 100%;
     background-color: rgb(15, 86, 179);
     color: rgb(255, 255, 255);
+    aspect-ratio: 0.109289;
     height: 10%;
     width: 91.5%;
 }
@@ -35,7 +36,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 130%;
+    font-size: 4vh;
     height: 100%;
 }
 
@@ -43,8 +44,8 @@ body{
     background-color: black;
     aspect-ratio: 1;
     height: 2.5%;
-    border-radius: 15px;
-    margin-bottom: 10px;
+    border-radius: 75%;
+    margin-bottom: 1.5%;
 }
 
 #screen {
@@ -69,7 +70,7 @@ body{
     background-color: rgb(15, 86, 179);
     height: 10%;
     width: 91.5%;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
 
 }
 
@@ -82,33 +83,38 @@ body{
     border: 1px solid rgb(95, 95, 95);
     height: 4%;
     width: 6%;
-    border-radius: 20px;
-    margin-top: 5px; 
+    border-radius: 100%;
+    margin-top: 1.5%; 
 }
 
 #circle{
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
-    height: 15px;
-    width: 15px;
-    border: 1px solid black; 
-    border-radius: 2px;
+    aspect-ratio: 1;
+    width: 75%;
+    border: .1em solid black; 
+    border-radius: 1%;
 }
 
 
 button {
-    font-family: 'Lobster Two', cursive;
-    font-size: 100%;
-    text-align: center;
-    vertical-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 76%;
     width: 12%;
-    border-radius: 40px;
+    border-radius: 90%;
     color:rgb(0, 0, 0);
 }
 
-
+.btext {
+    display: flex;
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    vertical-align: center;
+    font-size: 2vh;
+}
 
 :root {
     --grid-cols: 1;
