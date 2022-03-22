@@ -2,8 +2,9 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    padding-left: 3%;
     background-color: rgb(146, 146, 146);
-    width: 100%;
+    width: 90vw;
     height: 90vh;
 }
 
@@ -81,20 +82,20 @@ body{
     align-items: center;
     background-color: rgb(255, 253, 253);
     border: 1px solid rgb(95, 95, 95);
-    height: 4%;
+    aspect-ratio: 1;
     width: 6%;
+    height: 4%;
     border-radius: 100%;
     margin-top: 1.5%; 
 }
 
-#circle{
+circle{
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     aspect-ratio: 1;
-    width: 75%;
+    width: 100%;
     border: .1em solid black; 
-    border-radius: 1%;
 }
 
 
@@ -106,6 +107,11 @@ button {
     width: 12%;
     border-radius: 90%;
     color:rgb(0, 0, 0);
+}
+
+#two{
+    font-family: 'Lobster Two', cursive;
+    font-size: 2vh;
 }
 
 .btext {

@@ -9,10 +9,6 @@ let gridArray = 0;
 let target;
 let cell;
 
-
-//add images to button
-
-
 //generate a grid via append cells to screen
 
 function generateGrid(gridInput) {
@@ -56,7 +52,7 @@ function resetGrid() {
 };
 
 function removeChildren() {
-    let cell = document.querySelector('#cell');
+    cell = document.querySelector('#cell');
     while (screen.hasChildNodes()) {
         screen.removeChild(screen.firstChild);
     }
@@ -80,13 +76,13 @@ colorButton.addEventListener('click',
 function () {
 if (colorState == 0){
     colorState++;
-    colorButton.innerHTML = 'RGB'
+    colorButton.innerText = 'RGB';
 } else if (colorState == 1){
     colorState++;
-    colorButton.innerHTML = 'Eraser';
+    colorButton.innerText = 'Eraser';
 } else if (colorState == 2) {
     colorState = 0;
-    colorButton.innerHTML = 'Black'
+    colorButton.innerText = 'Black';
 }
 });
 
