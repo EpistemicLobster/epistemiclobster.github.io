@@ -103,6 +103,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    aspect-ratio: 1;
     height: 76%;
     width: 12%;
     border-radius: 90%;
