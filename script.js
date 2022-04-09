@@ -9,6 +9,10 @@ let gridArray = 0;
 let target;
 let cell;
 
+
+//add images to button
+
+
 //generate a grid via append cells to screen
 
 function generateGrid(gridInput) {
@@ -46,21 +50,20 @@ resetButton.addEventListener('click', resetGrid);
 
 homeButton.addEventListener('click', toggleScreen);
 
-function resetGrid() {
-    removeChildren()
-    generateGrid(gridInput)
-};
-
-function removeChildren() {
-    cell = document.querySelector('#cell');
+function resetGrid () {
+    let cell = document.querySelector('#cell');
     while (screen.hasChildNodes()) {
         screen.removeChild(screen.firstChild);
     }
-} 
+    generateGrid(gridInput)
+};
 
 sizeButton.addEventListener('click', 
 function changeGrid () {
-    removeChildren();
+    let cell = document.querySelector('#cell');
+    while (screen.hasChildNodes()) {
+        screen.removeChild(screen.firstChild);
+    };
     gridInput = prompt("Choose between 2 and 50, to adjust the grid size.", 16);
     if(gridInput > 50) {
         alert("That value is too big")
@@ -76,13 +79,13 @@ colorButton.addEventListener('click',
 function () {
 if (colorState == 0){
     colorState++;
-    colorButton.innerText = 'RGB';
+    colorButton.innerHTML = 'RGB'
 } else if (colorState == 1){
     colorState++;
-    colorButton.innerText = 'Eraser';
+    colorButton.innerHTML = 'Eraser';
 } else if (colorState == 2) {
     colorState = 0;
-    colorButton.innerText = 'Black';
+    colorButton.innerHTML = 'Black'
 }
 });
 
